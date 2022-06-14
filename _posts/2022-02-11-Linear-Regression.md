@@ -15,7 +15,7 @@ Question to answer
 Answers
 1. Linear regression
 The response variable is the linear combination of the predictor variables. i
-The regression estimates the factors $\beta_i$.
+The regression estimates the factors $$\beta_i$$.
 
 Simple regression:
 
