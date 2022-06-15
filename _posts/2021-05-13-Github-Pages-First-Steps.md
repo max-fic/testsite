@@ -1,7 +1,4 @@
 ---
-layout: post
-title: Github Pages First Steps
-tags: github git
 ---
 
 # Creating a project site with Jekyll, git and github

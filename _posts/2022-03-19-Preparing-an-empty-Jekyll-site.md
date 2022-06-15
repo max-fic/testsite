@@ -1,13 +1,13 @@
-`---
+---
 ---
 
-It is assumed that you already have installed the `bundle` and `jekyll` gems..
+It is assumed that you already have installed the `bundle` and `jekyll` gems.
 
 ### Common Installation
 
 First we create the directory that will hold the site's structure
 
-```
+```sh
 $ mkdir testsite
 $ cd testsite
 ```
@@ -15,7 +15,7 @@ $ cd testsite
 Next we instruct `bundle` to use a local version of its configuration
  (register of dependecies) in ./vendor/bundle so we can keep configurations separate in case we have various sites.
 
-```
+```sh
 $ bundle init
 $ bundle config set --local path 'vendor/bundle'
 $ bundle install
@@ -24,7 +24,7 @@ $ bundle install
 
 Next we install the jekyll gem (and its dependencies)
 
-```
+```sh
 $ bundle add jekyll
 ```
 
@@ -42,7 +42,7 @@ gem "webrick"
 
 Finally we create an empty jekyll structure
 
-```
+```sh
 $ bundle exec jekyll new --force -skip-bundle .
 $ bundle install
 ```
@@ -90,7 +90,7 @@ gem jekyll-feed
 
 Finally we have to run
 
-```
+```sh
 $ bundle install github-pages
 $ bundle update
 ```
@@ -108,3 +108,4 @@ $ git pull github main
 $ bundle config set --local path 'vendor/bundle'
 $ bundle install
 $ bundle add jekyll webrick
+```
